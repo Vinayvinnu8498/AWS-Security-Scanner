@@ -1,0 +1,1204 @@
+2026-04-11 14:24:50,979 - INFO - main - Starting AWS Security Scan
+2026-04-11 14:24:50,979 - INFO - main - Regions to scan: ['us-east-1', 'us-west-2', 'eu-west-1']
+2026-04-11 14:24:50,979 - INFO - main - Enabled modules: {'s3': True, 'iam': True, 'ec2': True, 'cloudtrail': True, 'securityhub': True}
+2026-04-11 14:24:50,979 - INFO - main - Scanning region: us-east-1
+2026-04-11 14:24:51,066 - INFO - main - Running scanner: s3
+2026-04-11 14:24:51,644 - INFO - main - Running scanner: iam
+2026-04-11 14:24:52,738 - INFO - main - Running scanner: ec2
+2026-04-11 14:24:53,455 - INFO - main - Running scanner: cloudtrail
+2026-04-11 14:24:54,005 - INFO - main - Running scanner: securityhub
+2026-04-11 14:24:56,158 - INFO - main - Scanning region: us-west-2
+2026-04-11 14:24:56,181 - INFO - main - Running scanner: s3
+2026-04-11 14:24:56,687 - INFO - main - Running scanner: iam
+2026-04-11 14:24:58,173 - INFO - main - Running scanner: ec2
+2026-04-11 14:24:58,827 - INFO - main - Running scanner: cloudtrail
+2026-04-11 14:24:59,331 - INFO - main - Running scanner: securityhub
+2026-04-11 14:25:00,853 - INFO - main - Scanning region: eu-west-1
+2026-04-11 14:25:00,863 - INFO - main - Running scanner: s3
+2026-04-11 14:25:01,753 - INFO - main - Running scanner: iam
+2026-04-11 14:25:02,810 - INFO - main - Running scanner: ec2
+2026-04-11 14:25:03,902 - INFO - main - Running scanner: cloudtrail
+2026-04-11 14:25:04,810 - INFO - main - Running scanner: securityhub
+2026-04-11 14:25:07,502 - INFO - main - Multi-region scan complete.
+2026-04-11 14:25:07,502 - INFO - main - Regions scanned: 3
+2026-04-11 14:25:07,502 - INFO - main - Total findings: 79
+2026-04-11 14:25:07,504 - INFO - main - Risk score: 0
+2026-04-11 14:33:07,153 - INFO - main - Starting AWS Security Scan
+2026-04-11 14:33:07,153 - INFO - main - Regions to scan: ['us-east-1', 'us-west-2', 'eu-west-1']
+2026-04-11 14:33:07,153 - INFO - main - Enabled modules: {'s3': True, 'iam': True, 'ec2': True, 'cloudtrail': True, 'securityhub': True}
+2026-04-11 14:33:07,153 - INFO - main - Scanning region: us-east-1
+2026-04-11 14:33:07,243 - INFO - main - Running scanner: s3
+2026-04-11 14:33:07,937 - INFO - main - Running scanner: iam
+2026-04-11 14:33:09,137 - INFO - main - Running scanner: ec2
+2026-04-11 14:33:09,906 - INFO - main - Running scanner: cloudtrail
+2026-04-11 14:33:10,900 - INFO - main - Running scanner: securityhub
+2026-04-11 14:33:13,321 - INFO - main - Scanning region: us-west-2
+2026-04-11 14:33:13,327 - INFO - main - Running scanner: s3
+2026-04-11 14:33:14,409 - INFO - main - Running scanner: iam
+2026-04-11 14:33:15,793 - INFO - main - Running scanner: ec2
+2026-04-11 14:33:17,098 - INFO - main - Running scanner: cloudtrail
+2026-04-11 14:33:18,143 - INFO - main - Running scanner: securityhub
+2026-04-11 14:33:20,403 - INFO - main - Scanning region: eu-west-1
+2026-04-11 14:33:20,418 - INFO - main - Running scanner: s3
+2026-04-11 14:33:22,189 - INFO - main - Running scanner: iam
+2026-04-11 14:33:23,680 - INFO - main - Running scanner: ec2
+2026-04-11 14:33:25,852 - INFO - main - Running scanner: cloudtrail
+2026-04-11 14:33:27,903 - INFO - main - Running scanner: securityhub
+2026-04-11 14:33:30,704 - INFO - main - Multi-region scan complete.
+2026-04-11 14:33:30,711 - INFO - main - Regions scanned: 3
+2026-04-11 14:33:30,711 - INFO - main - Total findings: 79
+2026-04-11 14:33:30,711 - INFO - main - Risk score: 0
+2026-04-11 14:35:27,910 - INFO - main - Starting AWS Security Scan
+2026-04-11 14:35:27,910 - INFO - main - Regions to scan: ['us-east-1', 'us-west-2', 'eu-west-1']
+2026-04-11 14:35:27,910 - INFO - main - Enabled modules: {'s3': True, 'iam': True, 'ec2': True, 'cloudtrail': True, 'securityhub': True}
+2026-04-11 14:35:27,910 - INFO - main - Scanning region: us-east-1
+2026-04-11 14:35:27,990 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-11 14:35:28,006 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-11 14:35:28,009 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-11 14:35:28,013 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-11 14:35:28,035 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-11 14:35:30,570 - INFO - main - Scanning region: us-west-2
+2026-04-11 14:35:30,600 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-11 14:35:30,601 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-11 14:35:30,601 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-11 14:35:30,603 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-11 14:35:30,606 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-11 14:35:35,773 - INFO - main - Scanning region: eu-west-1
+2026-04-11 14:35:35,790 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-11 14:35:35,790 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-11 14:35:35,790 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-11 14:35:35,790 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-11 14:35:35,790 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-11 14:35:41,215 - INFO - main - Multi-region scan complete.
+2026-04-11 14:35:41,217 - INFO - main - Regions scanned: 3
+2026-04-11 14:35:41,217 - INFO - main - Total findings: 79
+2026-04-11 14:35:41,217 - INFO - main - Risk score: 0
+2026-04-11 14:40:04,415 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-11 14:40:04,417 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-11 14:40:04,417 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-11 14:40:04,419 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-11 14:40:04,419 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-11 14:40:07,160 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-11 14:40:07,160 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-11 14:40:07,160 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-11 14:40:07,160 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-11 14:40:07,160 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-11 14:40:09,472 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-11 14:40:09,477 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-11 14:40:09,493 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-11 14:40:09,495 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-11 14:40:09,500 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-11 14:40:12,430 - INFO - main - Regions scanned: 3
+2026-04-11 14:40:12,430 - INFO - main - Total findings: 79
+2026-04-11 14:40:12,430 - INFO - main - Risk score: 0
+2026-04-12 12:05:35,679 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 12:05:35,679 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 12:05:35,683 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 12:05:35,683 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 12:05:35,687 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 12:05:35,687 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 12:05:35,708 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 12:05:35,745 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 12:05:38,874 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 12:05:38,890 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 12:05:38,914 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 12:05:38,915 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 12:05:38,915 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 12:05:38,915 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 12:05:38,919 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 12:05:38,919 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 12:05:41,365 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 12:05:41,365 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 12:05:41,366 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 12:05:41,366 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 12:05:41,366 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 12:05:41,366 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 12:05:41,366 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 12:05:41,406 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 12:05:44,873 - INFO - main - Regions scanned: 3
+2026-04-12 12:05:44,873 - INFO - main - Total findings: 88
+2026-04-12 12:05:44,873 - INFO - main - Risk score: 0
+2026-04-12 12:30:36,114 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 12:30:36,114 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 12:30:36,120 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 12:30:36,120 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 12:30:36,120 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 12:30:36,122 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 12:30:36,122 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 12:30:36,122 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 12:30:39,756 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 12:30:39,756 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 12:30:39,768 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 12:30:39,771 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 12:30:39,771 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 12:30:39,775 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 12:30:39,865 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 12:30:39,865 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 12:30:42,505 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 12:30:42,509 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 12:30:42,510 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 12:30:42,512 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 12:30:42,515 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 12:30:42,515 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 12:30:42,519 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 12:30:42,586 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 12:30:46,357 - INFO - main - Regions scanned: 3
+2026-04-12 12:30:46,358 - INFO - main - Total findings: 91
+2026-04-12 12:30:46,358 - INFO - main - Risk score: 0
+2026-04-12 12:39:53,516 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 12:39:53,520 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 12:39:53,521 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 12:39:53,521 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 12:39:53,521 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 12:39:53,521 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 12:39:53,524 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 12:39:53,524 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 12:39:57,387 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 12:39:57,387 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 12:39:57,387 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 12:39:57,387 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 12:39:57,391 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 12:39:57,393 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 12:39:57,393 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 12:39:57,401 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 12:40:00,506 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 12:40:00,506 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 12:40:00,509 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 12:40:00,509 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 12:40:00,509 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 12:40:00,509 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 12:40:00,516 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 12:40:00,516 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 12:40:04,758 - INFO - main - Regions scanned: 3
+2026-04-12 12:40:04,759 - INFO - main - Total findings: 91
+2026-04-12 12:40:04,760 - INFO - main - Risk score: 0
+2026-04-12 13:12:45,221 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 13:12:45,226 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 13:12:45,226 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 13:12:45,230 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 13:12:45,233 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 13:12:45,234 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 13:12:45,236 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 13:12:45,236 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 13:12:47,585 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-12 13:12:47,613 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-12 13:12:49,344 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 13:12:49,346 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 13:12:49,348 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 13:12:49,351 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 13:12:49,357 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 13:12:49,360 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 13:12:49,409 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 13:12:49,419 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 13:12:51,488 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-12 13:12:51,588 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-12 13:12:52,602 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 13:12:52,602 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 13:12:52,606 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 13:12:52,606 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 13:12:52,608 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 13:12:52,608 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 13:12:52,608 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 13:12:52,608 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 13:12:54,907 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-12 13:12:54,954 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-12 13:12:56,714 - INFO - main - Regions scanned: 3
+2026-04-12 13:12:56,714 - INFO - main - Total findings: 97
+2026-04-12 13:12:56,714 - INFO - main - Risk score: 0
+2026-04-12 13:36:19,254 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 13:36:19,254 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 13:36:19,254 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 13:36:19,254 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 13:36:19,254 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 13:36:19,254 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 13:36:19,254 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 13:36:19,254 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 13:36:20,690 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-12 13:36:20,738 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-12 13:36:22,521 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 13:36:22,521 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 13:36:22,521 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 13:36:22,521 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 13:36:22,521 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 13:36:22,521 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 13:36:22,521 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 13:36:22,521 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 13:36:23,796 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-12 13:36:23,844 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-12 13:36:24,968 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 13:36:24,968 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 13:36:24,968 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 13:36:24,968 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 13:36:24,968 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 13:36:24,968 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 13:36:24,968 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 13:36:24,968 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 13:36:26,432 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-12 13:36:26,452 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-12 13:36:28,245 - INFO - main - Regions scanned: 3
+2026-04-12 13:36:28,245 - INFO - main - Total findings: 109
+2026-04-12 13:36:28,245 - INFO - main - Risk score: 0
+2026-04-12 13:42:19,224 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 13:42:19,224 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 13:42:19,224 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 13:42:19,224 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 13:42:19,224 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 13:42:19,224 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 13:42:19,224 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 13:42:19,224 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 13:42:20,617 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-12 13:42:20,635 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-12 13:42:21,799 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 13:42:21,799 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 13:42:21,799 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 13:42:21,799 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 13:42:21,799 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 13:42:21,799 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 13:42:21,799 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 13:42:21,799 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 13:42:23,027 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-12 13:42:23,143 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-12 13:42:24,448 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 13:42:24,449 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 13:42:24,449 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 13:42:24,451 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 13:42:24,451 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 13:42:24,451 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 13:42:24,464 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 13:42:24,464 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 13:42:26,098 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-12 13:42:26,114 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-12 13:42:27,452 - INFO - main - Regions scanned: 3
+2026-04-12 13:42:27,452 - INFO - main - Total findings: 110
+2026-04-12 13:42:27,452 - INFO - main - Risk score: 0
+2026-04-12 13:45:06,429 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 13:45:06,429 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 13:45:06,429 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 13:45:06,429 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 13:45:06,429 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 13:45:06,429 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 13:45:06,437 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 13:45:06,437 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 13:45:08,302 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-12 13:45:08,361 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-12 13:45:09,546 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 13:45:09,547 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 13:45:09,547 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 13:45:09,549 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 13:45:09,551 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 13:45:09,551 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 13:45:09,553 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 13:45:09,555 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 13:45:12,177 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-12 13:45:12,208 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-12 13:45:13,465 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 13:45:13,465 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 13:45:13,465 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 13:45:13,465 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 13:45:13,482 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 13:45:13,482 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 13:45:13,507 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 13:45:13,509 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 13:45:16,359 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-12 13:45:16,486 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-12 13:45:17,605 - INFO - main - Regions scanned: 3
+2026-04-12 13:45:17,605 - INFO - main - Total findings: 113
+2026-04-12 13:45:17,605 - INFO - main - Risk score: 0
+2026-04-12 14:07:38,752 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 14:07:38,752 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 14:07:38,752 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 14:07:38,752 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 14:07:38,752 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 14:07:38,752 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 14:07:38,752 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 14:07:38,752 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 14:07:40,301 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-12 14:07:40,397 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-12 14:07:40,492 - ERROR - main - Error running ec2 scanner in us-east-1: An error occurred (UnauthorizedOperation) when calling the DescribeInstances operation: You are not authorized to perform this operation. User: arn:aws:iam::257426645494:user/aws-security-scanner is not authorized to perform: ec2:DescribeInstances because no identity-based policy allows the ec2:DescribeInstances action
+2026-04-12 14:07:41,844 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 14:07:41,844 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 14:07:41,844 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 14:07:41,844 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 14:07:41,844 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 14:07:41,844 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 14:07:41,844 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 14:07:41,876 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 14:07:43,801 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-12 14:07:43,845 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-12 14:07:44,020 - ERROR - main - Error running ec2 scanner in us-west-2: An error occurred (UnauthorizedOperation) when calling the DescribeInstances operation: You are not authorized to perform this operation. User: arn:aws:iam::257426645494:user/aws-security-scanner is not authorized to perform: ec2:DescribeInstances because no identity-based policy allows the ec2:DescribeInstances action
+2026-04-12 14:07:44,905 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 14:07:44,905 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 14:07:44,905 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 14:07:44,905 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 14:07:44,908 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 14:07:44,908 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 14:07:44,924 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 14:07:44,924 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 14:07:47,104 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-12 14:07:47,135 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-12 14:07:47,500 - ERROR - main - Error running ec2 scanner in eu-west-1: An error occurred (UnauthorizedOperation) when calling the DescribeInstances operation: You are not authorized to perform this operation. User: arn:aws:iam::257426645494:user/aws-security-scanner is not authorized to perform: ec2:DescribeInstances because no identity-based policy allows the ec2:DescribeInstances action
+2026-04-12 14:07:48,398 - INFO - main - Regions scanned: 3
+2026-04-12 14:07:48,399 - INFO - main - Total findings: 124
+2026-04-12 14:07:48,399 - INFO - main - Risk score: 0
+2026-04-12 14:14:45,877 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 14:14:45,878 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 14:14:45,879 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 14:14:45,880 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 14:14:45,882 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 14:14:45,883 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 14:14:45,883 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 14:14:45,884 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 14:14:47,285 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-12 14:14:47,338 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-12 14:14:48,762 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 14:14:48,762 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 14:14:48,762 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 14:14:48,762 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 14:14:48,762 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 14:14:48,762 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 14:14:48,774 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 14:14:48,805 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 14:14:50,077 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-12 14:14:50,109 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-12 14:14:51,382 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 14:14:51,382 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 14:14:51,382 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 14:14:51,382 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 14:14:51,382 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 14:14:51,382 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 14:14:51,414 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 14:14:51,430 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 14:14:52,961 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-12 14:14:52,969 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-12 14:15:10,858 - INFO - main - Regions scanned: 3
+2026-04-12 14:15:10,858 - INFO - main - Total findings: 127
+2026-04-12 14:15:10,858 - INFO - main - Risk score: 0
+2026-04-12 14:31:02,194 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 14:31:02,194 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 14:31:02,194 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 14:31:02,194 - ERROR - main - Error running s3 scanner in us-east-1: scan_s3() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,194 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 14:31:02,194 - ERROR - main - Error running s3public scanner in us-east-1: scan_s3_public_access() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,194 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 14:31:02,194 - ERROR - main - Error running iam scanner in us-east-1: scan_iam() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,194 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 14:31:02,194 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 14:31:02,194 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 14:31:02,194 - ERROR - main - Error running ec2 scanner in us-east-1: scan_ec2() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,194 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-12 14:31:02,194 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-12 14:31:02,194 - ERROR - main - Error running cloudtrail scanner in us-east-1: scan_cloudtrail() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,194 - ERROR - main - Error running securityhub scanner in us-east-1: scan_security_hub() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,194 - ERROR - main - Error running securitygroups scanner in us-east-1: scan_security_groups() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,194 - ERROR - main - Error running guardduty scanner in us-east-1: scan_guardduty() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,194 - ERROR - main - Error running config scanner in us-east-1: scan_config() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,194 - ERROR - main - Error running cloudwatchalarms scanner in us-east-1: scan_cloudwatch_security_alarms() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 14:31:02,210 - ERROR - main - Error running s3 scanner in us-west-2: scan_s3() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 14:31:02,210 - ERROR - main - Error running s3public scanner in us-west-2: scan_s3_public_access() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 14:31:02,210 - ERROR - main - Error running iam scanner in us-west-2: scan_iam() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-12 14:31:02,210 - ERROR - main - Error running ec2 scanner in us-west-2: scan_ec2() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-12 14:31:02,210 - ERROR - main - Error running cloudtrail scanner in us-west-2: scan_cloudtrail() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - ERROR - main - Error running securityhub scanner in us-west-2: scan_security_hub() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - ERROR - main - Error running securitygroups scanner in us-west-2: scan_security_groups() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - ERROR - main - Error running guardduty scanner in us-west-2: scan_guardduty() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - ERROR - main - Error running config scanner in us-west-2: scan_config() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - ERROR - main - Error running cloudwatchalarms scanner in us-west-2: scan_cloudwatch_security_alarms() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 14:31:02,210 - ERROR - main - Error running s3 scanner in eu-west-1: scan_s3() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - ERROR - main - Error running s3public scanner in eu-west-1: scan_s3_public_access() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 14:31:02,210 - ERROR - main - Error running iam scanner in eu-west-1: scan_iam() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 14:31:02,210 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 14:31:02,226 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 14:31:02,226 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 14:31:02,226 - ERROR - main - Error running ec2 scanner in eu-west-1: scan_ec2() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,226 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-12 14:31:02,226 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-12 14:31:02,226 - ERROR - main - Error running cloudtrail scanner in eu-west-1: scan_cloudtrail() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,226 - ERROR - main - Error running securityhub scanner in eu-west-1: scan_security_hub() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,226 - ERROR - main - Error running securitygroups scanner in eu-west-1: scan_security_groups() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,226 - ERROR - main - Error running guardduty scanner in eu-west-1: scan_guardduty() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,226 - ERROR - main - Error running config scanner in eu-west-1: scan_config() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,226 - ERROR - main - Error running cloudwatchalarms scanner in eu-west-1: scan_cloudwatch_security_alarms() takes 0 positional arguments but 1 was given
+2026-04-12 14:31:02,226 - INFO - main - Regions scanned: 3
+2026-04-12 14:31:02,226 - INFO - main - Total findings: 0
+2026-04-12 14:31:02,226 - INFO - main - Risk score: 100
+2026-04-12 14:39:29,295 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-12 14:39:29,296 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-12 14:39:29,296 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-12 14:39:29,297 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-12 14:39:29,300 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-12 14:39:29,320 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-12 14:39:29,363 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-12 14:39:29,364 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-12 14:39:30,934 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-12 14:39:30,935 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-12 14:39:32,480 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-12 14:39:32,480 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-12 14:39:32,481 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-12 14:39:32,483 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-12 14:39:32,484 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-12 14:39:32,516 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-12 14:39:32,519 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-12 14:39:32,523 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-12 14:39:33,887 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-12 14:39:33,970 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-12 14:39:34,942 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-12 14:39:34,943 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-12 14:39:34,944 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-12 14:39:34,945 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-12 14:39:34,946 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-12 14:39:34,946 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-12 14:39:35,050 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-12 14:39:35,052 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-12 14:39:36,600 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-12 14:39:36,616 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-12 14:39:38,392 - INFO - main - Regions scanned: 3
+2026-04-12 14:39:38,392 - INFO - main - Total findings: 128
+2026-04-12 14:39:38,392 - INFO - main - Risk score: 0
+2026-04-18 12:57:17,894 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-18 12:57:17,894 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-18 12:57:17,910 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-18 12:57:17,910 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-18 12:57:17,910 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-18 12:57:17,910 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-18 12:57:17,910 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-18 12:57:17,910 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-18 12:57:19,853 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-18 12:57:19,874 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-18 12:57:21,078 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-18 12:57:21,079 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-18 12:57:21,079 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-18 12:57:21,080 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-18 12:57:21,081 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-18 12:57:21,082 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-18 12:57:21,090 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-18 12:57:21,090 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-18 12:57:22,399 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-18 12:57:22,414 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-18 12:57:23,344 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-18 12:57:23,344 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-18 12:57:23,344 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-18 12:57:23,344 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-18 12:57:23,344 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-18 12:57:23,344 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-18 12:57:23,351 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-18 12:57:23,351 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-18 12:57:24,898 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-18 12:57:24,910 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-18 12:57:26,727 - INFO - main - Regions scanned: 3
+2026-04-18 12:57:26,727 - INFO - main - Total findings: 128
+2026-04-18 12:57:26,727 - INFO - main - Risk score: 0
+2026-04-18 13:04:31,329 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-18 13:04:31,329 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-18 13:04:31,329 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-18 13:04:31,343 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-18 13:04:31,347 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-18 13:04:31,347 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-18 13:04:31,351 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-18 13:04:31,355 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-18 13:04:35,143 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-18 13:04:35,143 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-18 13:04:36,819 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-18 13:04:36,819 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-18 13:04:36,819 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-18 13:04:36,819 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-18 13:04:36,922 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-18 13:04:36,924 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-18 13:04:36,927 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-18 13:04:36,927 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-18 13:04:40,739 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-18 13:04:40,776 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-18 13:04:42,804 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-18 13:04:42,804 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-18 13:04:42,804 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-18 13:04:42,804 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-18 13:04:42,804 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-18 13:04:42,804 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-18 13:04:42,804 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-18 13:04:42,819 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-18 13:04:47,089 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-18 13:04:47,146 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-18 13:04:48,651 - INFO - main - Regions scanned: 3
+2026-04-18 13:04:48,651 - INFO - main - Total findings: 128
+2026-04-18 13:04:48,651 - INFO - main - Risk score: 0
+2026-04-18 13:08:51,205 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-18 13:08:51,205 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-18 13:08:51,207 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-18 13:08:51,210 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-18 13:08:51,210 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-18 13:08:51,212 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-18 13:08:51,214 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-18 13:08:51,214 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-18 13:08:52,624 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-18 13:08:52,673 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-18 13:08:54,050 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-18 13:08:54,050 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-18 13:08:54,052 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-18 13:08:54,054 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-18 13:08:54,056 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-18 13:08:54,056 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-18 13:08:54,058 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-18 13:08:54,068 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-18 13:08:56,367 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-18 13:08:56,432 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-18 13:08:57,287 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-18 13:08:57,287 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-18 13:08:57,287 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-18 13:08:57,287 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-18 13:08:57,287 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-18 13:08:57,303 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-18 13:08:57,338 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-18 13:08:57,351 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-18 13:09:00,524 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-18 13:09:00,527 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-18 13:09:02,694 - INFO - main - Regions scanned: 3
+2026-04-18 13:09:02,710 - INFO - main - Total findings: 128
+2026-04-18 13:09:02,710 - INFO - main - Risk score: 0
+2026-04-18 13:12:17,875 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-18 13:12:17,877 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-18 13:12:17,878 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-18 13:12:17,880 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-18 13:12:17,881 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-18 13:12:17,886 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-18 13:12:17,890 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-18 13:12:17,894 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-18 13:12:21,537 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-18 13:12:21,598 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-18 13:12:22,801 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-18 13:12:22,801 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-18 13:12:22,801 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-18 13:12:22,807 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-18 13:12:22,807 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-18 13:12:22,855 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-18 13:12:22,871 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-18 13:12:22,871 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-18 13:12:25,823 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-18 13:12:25,870 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-18 13:12:26,943 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-18 13:12:26,948 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-18 13:12:26,950 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-18 13:12:26,954 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-18 13:12:26,958 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-18 13:12:27,005 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-18 13:12:27,027 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-18 13:12:27,075 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-18 13:12:30,431 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-18 13:12:30,447 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-18 13:12:31,926 - INFO - main - Regions scanned: 3
+2026-04-18 13:12:31,926 - INFO - main - Total findings: 128
+2026-04-18 13:12:31,926 - INFO - main - Risk score: 0
+2026-04-18 13:13:23,465 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-18 13:13:23,465 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-18 13:13:23,469 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-18 13:13:23,469 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-18 13:13:23,469 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-18 13:13:23,469 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-18 13:13:23,469 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-18 13:13:23,469 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-18 13:13:26,230 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-18 13:13:26,430 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-18 13:13:27,574 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-18 13:13:27,574 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-18 13:13:27,574 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-18 13:13:27,574 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-18 13:13:27,574 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-18 13:13:27,574 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-18 13:13:27,574 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-18 13:13:27,574 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-18 13:13:30,182 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-18 13:13:30,255 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-18 13:13:31,384 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-18 13:13:31,384 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-18 13:13:31,384 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-18 13:13:31,384 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-18 13:13:31,384 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-18 13:13:31,384 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-18 13:13:31,416 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-18 13:13:31,447 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-18 13:13:35,896 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-18 13:13:35,957 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-18 13:13:37,981 - INFO - main - Regions scanned: 3
+2026-04-18 13:13:37,981 - INFO - main - Total findings: 128
+2026-04-18 13:13:37,981 - INFO - main - Risk score: 0
+2026-04-18 13:28:54,964 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-18 13:28:54,966 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-18 13:28:54,967 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-18 13:28:54,967 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-18 13:28:54,968 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-18 13:28:54,969 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-18 13:28:54,976 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-18 13:28:54,980 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-18 13:28:57,462 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-18 13:28:57,968 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-18 13:28:59,539 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-18 13:28:59,540 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-18 13:28:59,547 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-18 13:28:59,654 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-18 13:28:59,698 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-18 13:28:59,700 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-18 13:28:59,702 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-18 13:28:59,704 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-18 13:29:02,295 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-18 13:29:02,399 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-18 13:29:04,254 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-18 13:29:04,257 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-18 13:29:04,258 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-18 13:29:04,284 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-18 13:29:04,316 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-18 13:29:04,316 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-18 13:29:04,316 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-18 13:29:04,316 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-18 13:29:06,805 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-18 13:29:06,866 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-18 13:29:08,168 - INFO - main - Regions scanned: 3
+2026-04-18 13:29:08,168 - INFO - main - Total findings: 153
+2026-04-18 13:29:08,168 - INFO - main - Risk score: 0
+2026-04-18 13:35:07,244 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-18 13:35:07,244 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-18 13:35:07,249 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-18 13:35:07,250 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-18 13:35:07,253 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-18 13:35:07,253 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-18 13:35:07,258 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-18 13:35:07,260 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-18 13:35:09,825 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-18 13:35:10,071 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-18 13:35:11,005 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-18 13:35:11,005 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-18 13:35:11,005 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-18 13:35:11,016 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-18 13:35:11,016 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-18 13:35:11,020 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-18 13:35:11,071 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-18 13:35:11,255 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-18 13:35:13,112 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-18 13:35:13,217 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-18 13:35:15,041 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-18 13:35:15,041 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-18 13:35:15,050 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-18 13:35:15,050 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-18 13:35:15,056 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-18 13:35:15,108 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-18 13:35:15,115 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-18 13:35:15,168 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-18 13:35:17,262 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-18 13:35:17,681 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-18 13:35:19,266 - INFO - main - Regions scanned: 3
+2026-04-18 13:35:19,266 - INFO - main - Total findings: 147
+2026-04-18 13:35:19,266 - INFO - main - Risk score: 0
+2026-04-18 13:45:32,312 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-18 13:45:32,313 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-18 13:45:32,314 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-18 13:45:32,316 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-18 13:45:32,319 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-18 13:45:32,319 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-18 13:45:32,319 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-18 13:45:32,326 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-18 13:45:34,729 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-18 13:45:34,901 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-18 13:45:35,914 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-18 13:45:35,923 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-18 13:45:35,950 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-18 13:45:35,957 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-18 13:45:35,973 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-18 13:45:35,973 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-18 13:45:35,973 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-18 13:45:35,973 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-18 13:45:37,917 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-18 13:45:38,024 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-18 13:45:39,779 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-18 13:45:39,779 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-18 13:45:39,779 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-18 13:45:39,779 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-18 13:45:39,779 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-18 13:45:39,849 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-18 13:45:39,890 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-18 13:45:39,890 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-18 13:45:42,400 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-18 13:45:42,479 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-18 13:45:43,966 - INFO - main - Regions scanned: 3
+2026-04-18 13:45:43,970 - INFO - main - Total findings: 147
+2026-04-18 13:45:43,970 - INFO - main - Risk score: 0
+2026-04-18 14:16:42,186 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-18 14:16:42,186 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-18 14:16:42,186 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-18 14:16:42,186 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-18 14:16:42,186 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-18 14:16:42,186 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-18 14:16:42,186 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-18 14:16:42,186 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-18 14:16:44,396 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-18 14:16:44,668 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-18 14:16:46,184 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-18 14:16:46,184 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-18 14:16:46,184 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-18 14:16:46,190 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-18 14:16:46,190 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-18 14:16:46,277 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-18 14:16:46,305 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-18 14:16:46,324 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-18 14:16:48,313 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-18 14:16:48,496 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-18 14:16:49,858 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-18 14:16:49,861 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-18 14:16:49,869 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-18 14:16:49,905 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-18 14:16:49,928 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-18 14:16:49,930 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-18 14:16:49,930 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-18 14:16:49,930 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-18 14:16:52,169 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-18 14:16:52,503 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-18 14:16:53,880 - INFO - main - Regions scanned: 3
+2026-04-18 14:16:53,884 - INFO - main - Total findings: 155
+2026-04-18 14:16:53,885 - INFO - main - Risk score: 0
+2026-04-19 12:45:58,231 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-19 12:45:58,238 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-19 12:45:58,239 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-19 12:45:58,239 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-19 12:45:58,240 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-19 12:45:58,240 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-19 12:45:58,240 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-19 12:45:58,240 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-19 12:46:00,781 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-19 12:46:00,872 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-19 12:46:04,785 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-19 12:46:04,785 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-19 12:46:04,785 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-19 12:46:04,785 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-19 12:46:04,785 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-19 12:46:04,785 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-19 12:46:04,801 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-19 12:46:05,288 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-19 12:46:17,872 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-19 12:46:17,883 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-19 12:46:24,662 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-19 12:46:24,663 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-19 12:46:24,664 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-19 12:46:24,665 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-19 12:46:24,666 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-19 12:46:24,668 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-19 12:46:24,673 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-19 12:46:24,751 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-19 12:46:27,724 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-19 12:46:27,762 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-19 12:47:08,393 - INFO - main - Regions scanned: 3
+2026-04-19 12:47:08,393 - INFO - main - Total findings: 155
+2026-04-19 12:47:08,393 - INFO - main - Risk score: 0
+2026-04-19 12:53:58,670 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-19 12:53:58,675 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-19 12:53:58,717 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-19 12:53:58,737 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-19 12:53:58,745 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-19 12:53:58,745 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-19 12:53:58,745 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-19 12:53:58,745 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-19 12:54:00,875 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-19 12:54:00,968 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-19 12:54:02,270 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-19 12:54:02,270 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-19 12:54:02,270 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-19 12:54:02,270 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-19 12:54:02,270 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-19 12:54:02,270 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-19 12:54:02,295 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-19 12:54:02,366 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-19 12:54:04,112 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-19 12:54:04,216 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-19 12:54:05,557 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-19 12:54:05,557 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-19 12:54:05,557 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-19 12:54:05,557 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-19 12:54:05,573 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-19 12:54:05,604 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-19 12:54:05,619 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-19 12:54:05,621 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-19 12:54:07,356 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-19 12:54:07,386 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-19 12:54:09,004 - INFO - main - Regions scanned: 3
+2026-04-19 12:54:09,004 - INFO - main - Total findings: 155
+2026-04-19 12:54:09,004 - INFO - main - Risk score: 0
+2026-04-19 13:43:34,590 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-19 13:43:34,594 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-19 13:43:34,625 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-19 13:43:34,645 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-19 13:43:34,673 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-19 13:43:34,682 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-19 13:43:34,688 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-19 13:43:34,696 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-19 13:43:36,506 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-19 13:43:36,847 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-19 13:43:37,688 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-19 13:43:37,688 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-19 13:43:37,688 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-19 13:43:37,688 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-19 13:43:37,688 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-19 13:43:37,688 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-19 13:43:37,719 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-19 13:43:37,738 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-19 13:43:39,261 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-19 13:43:39,304 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-19 13:44:06,325 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-19 13:44:06,325 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-19 13:44:06,325 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-19 13:44:06,325 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-19 13:44:06,325 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-19 13:44:06,325 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-19 13:44:06,325 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-19 13:44:06,325 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-19 13:44:08,096 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-19 13:44:08,207 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-19 13:44:09,454 - INFO - main - Regions scanned: 3
+2026-04-19 13:44:09,454 - INFO - main - Total findings: 155
+2026-04-19 13:44:09,454 - INFO - main - Risk score: 0
+2026-04-19 13:54:18,914 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-19 13:54:18,914 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-19 13:54:18,918 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-19 13:54:18,918 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-19 13:54:18,918 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-19 13:54:18,998 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-19 13:54:18,998 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-19 13:54:19,046 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-19 13:54:20,792 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-19 13:54:20,846 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-19 13:54:21,721 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-19 13:54:21,721 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-19 13:54:21,721 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-19 13:54:21,736 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-19 13:54:21,736 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-19 13:54:21,736 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-19 13:54:21,736 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-19 13:54:21,736 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-19 13:54:24,612 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-19 13:54:24,803 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-19 13:54:26,118 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-19 13:54:26,118 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-19 13:54:26,126 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-19 13:54:26,128 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-19 13:54:26,136 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-19 13:54:26,136 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-19 13:54:26,136 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-19 13:54:26,182 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-19 13:54:29,174 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-19 13:54:29,412 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-19 13:54:30,993 - INFO - main - Regions scanned: 3
+2026-04-19 13:54:30,993 - INFO - main - Total findings: 155
+2026-04-19 13:54:30,993 - INFO - main - Risk score: 0
+2026-04-19 14:13:04,250 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-19 14:13:04,250 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-19 14:13:04,250 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-19 14:13:04,251 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-19 14:13:04,255 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-19 14:13:04,255 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-19 14:13:04,256 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-19 14:13:04,256 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-19 14:13:06,210 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-19 14:13:06,244 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-19 14:13:06,306 - INFO - main - Running scanner: cis4x in region: us-east-1
+2026-04-19 14:13:06,307 - ERROR - main - Error running cis4x scanner in us-east-1: run_cis_4x_check() takes 0 positional arguments but 1 was given
+2026-04-19 14:13:07,476 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-19 14:13:07,476 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-19 14:13:07,478 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-19 14:13:07,479 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-19 14:13:07,479 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-19 14:13:07,480 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-19 14:13:07,481 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-19 14:13:07,504 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-19 14:13:08,954 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-19 14:13:08,984 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-19 14:13:09,197 - INFO - main - Running scanner: cis4x in region: us-west-2
+2026-04-19 14:13:09,200 - ERROR - main - Error running cis4x scanner in us-west-2: run_cis_4x_check() takes 0 positional arguments but 1 was given
+2026-04-19 14:13:10,154 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-19 14:13:10,155 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-19 14:13:10,156 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-19 14:13:10,159 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-19 14:13:10,161 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-19 14:13:10,163 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-19 14:13:10,165 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-19 14:13:10,183 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-19 14:13:12,238 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-19 14:13:12,247 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-19 14:13:12,320 - INFO - main - Running scanner: cis4x in region: eu-west-1
+2026-04-19 14:13:12,320 - ERROR - main - Error running cis4x scanner in eu-west-1: run_cis_4x_check() takes 0 positional arguments but 1 was given
+2026-04-19 14:13:13,510 - INFO - main - Regions scanned: 3
+2026-04-19 14:13:13,510 - INFO - main - Total findings: 155
+2026-04-19 14:13:13,510 - INFO - main - Risk score: 0
+2026-04-19 14:15:15,867 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-19 14:15:15,867 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-19 14:15:15,868 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-19 14:15:15,870 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-19 14:15:15,871 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-19 14:15:15,872 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-19 14:15:15,920 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-19 14:15:15,969 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-19 14:15:17,988 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-19 14:15:18,004 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-19 14:15:18,098 - INFO - main - Running scanner: cis4x in region: us-east-1
+2026-04-19 14:15:18,811 - ERROR - main - Error running cis4x scanner in us-east-1: An error occurred (AccessDeniedException) when calling the DescribeMetricFilters operation: User: arn:aws:iam::257426645494:user/aws-security-scanner is not authorized to perform: logs:DescribeMetricFilters on resource: arn:aws:logs:us-east-1:257426645494:log-group:aws-cloudtrail-logs-257426645494-f702f63c:log-stream: because no identity-based policy allows the logs:DescribeMetricFilters action
+2026-04-19 14:15:18,991 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-19 14:15:18,992 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-19 14:15:18,993 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-19 14:15:18,993 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-19 14:15:18,994 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-19 14:15:18,996 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-19 14:15:18,998 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-19 14:15:19,011 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-19 14:15:20,729 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-19 14:15:20,756 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-19 14:15:20,938 - INFO - main - Running scanner: cis4x in region: us-west-2
+2026-04-19 14:15:21,009 - ERROR - main - Error running cis4x scanner in us-west-2: An error occurred (AccessDeniedException) when calling the DescribeMetricFilters operation: User: arn:aws:iam::257426645494:user/aws-security-scanner is not authorized to perform: logs:DescribeMetricFilters on resource: arn:aws:logs:us-east-1:257426645494:log-group:aws-cloudtrail-logs-257426645494-f702f63c:log-stream: because no identity-based policy allows the logs:DescribeMetricFilters action
+2026-04-19 14:15:22,698 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-19 14:15:22,698 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-19 14:15:22,700 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-19 14:15:22,701 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-19 14:15:22,701 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-19 14:15:22,702 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-19 14:15:22,703 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-19 14:15:22,704 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-19 14:15:25,568 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-19 14:15:25,889 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-19 14:15:25,897 - INFO - main - Running scanner: cis4x in region: eu-west-1
+2026-04-19 14:15:25,965 - ERROR - main - Error running cis4x scanner in eu-west-1: An error occurred (AccessDeniedException) when calling the DescribeMetricFilters operation: User: arn:aws:iam::257426645494:user/aws-security-scanner is not authorized to perform: logs:DescribeMetricFilters on resource: arn:aws:logs:us-east-1:257426645494:log-group:aws-cloudtrail-logs-257426645494-f702f63c:log-stream: because no identity-based policy allows the logs:DescribeMetricFilters action
+2026-04-19 14:15:27,441 - INFO - main - Regions scanned: 3
+2026-04-19 14:15:27,442 - INFO - main - Total findings: 155
+2026-04-19 14:15:27,443 - INFO - main - Risk score: 0
+2026-04-19 14:19:55,765 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-19 14:19:55,765 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-19 14:19:55,765 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-19 14:19:55,765 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-19 14:19:55,765 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-19 14:19:55,765 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-19 14:19:55,765 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-19 14:19:55,796 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-19 14:19:57,587 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-19 14:19:57,730 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-19 14:19:57,802 - INFO - main - Running scanner: cis4x in region: us-east-1
+2026-04-19 14:19:58,952 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-19 14:19:58,952 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-19 14:19:58,952 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-19 14:19:58,969 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-19 14:19:58,969 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-19 14:19:58,969 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-19 14:19:58,969 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-19 14:19:58,969 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-19 14:20:00,607 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-19 14:20:00,700 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-19 14:20:00,918 - INFO - main - Running scanner: cis4x in region: us-west-2
+2026-04-19 14:20:01,837 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-19 14:20:01,837 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-19 14:20:01,837 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-19 14:20:01,837 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-19 14:20:01,837 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-19 14:20:01,837 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-19 14:20:01,837 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-19 14:20:01,837 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-19 14:20:04,146 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-19 14:20:04,193 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-19 14:20:04,262 - INFO - main - Running scanner: cis4x in region: eu-west-1
+2026-04-19 14:20:05,630 - INFO - main - Regions scanned: 3
+2026-04-19 14:20:05,630 - INFO - main - Total findings: 170
+2026-04-19 14:20:05,630 - INFO - main - Risk score: 0
+2026-04-19 14:22:38,422 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-19 14:22:38,422 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-19 14:22:38,422 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-19 14:22:38,422 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-19 14:22:38,422 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-19 14:22:38,422 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-19 14:22:38,422 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-19 14:22:38,422 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-19 14:22:41,764 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-19 14:22:41,837 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-19 14:22:41,954 - INFO - main - Running scanner: cis4x in region: us-east-1
+2026-04-19 14:22:44,007 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-19 14:22:44,007 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-19 14:22:44,007 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-19 14:22:44,007 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-19 14:22:44,007 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-19 14:22:44,007 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-19 14:22:44,007 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-19 14:22:44,007 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-19 14:22:47,596 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-19 14:22:47,684 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-19 14:22:47,750 - INFO - main - Running scanner: cis4x in region: us-west-2
+2026-04-19 14:22:48,884 - ERROR - main - Error running cis4x scanner in us-west-2: An error occurred (ResourceNotFoundException) when calling the DescribeMetricFilters operation: The specified log group does not exist.
+2026-04-19 14:22:49,668 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-19 14:22:49,668 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-19 14:22:49,668 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-19 14:22:49,684 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-19 14:22:49,690 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-19 14:22:49,727 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-19 14:22:49,771 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-19 14:22:49,818 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-19 14:22:54,653 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-19 14:22:54,781 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-19 14:22:54,807 - INFO - main - Running scanner: cis4x in region: eu-west-1
+2026-04-19 14:22:57,254 - ERROR - main - Error running cis4x scanner in eu-west-1: An error occurred (ResourceNotFoundException) when calling the DescribeMetricFilters operation: The specified log group does not exist.
+2026-04-19 14:22:57,869 - INFO - main - Regions scanned: 3
+2026-04-19 14:22:57,872 - INFO - main - Total findings: 158
+2026-04-19 14:22:57,872 - INFO - main - Risk score: 0
+2026-04-19 14:32:08,835 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-04-19 14:32:08,837 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-04-19 14:32:08,838 - INFO - main - Running scanner: iam in region: us-east-1
+2026-04-19 14:32:08,839 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-04-19 14:32:08,839 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-04-19 14:32:08,842 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-04-19 14:32:08,844 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-04-19 14:32:08,846 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-04-19 14:32:12,711 - INFO - main - Running scanner: config in region: us-east-1
+2026-04-19 14:32:12,796 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-04-19 14:32:12,988 - INFO - main - Running scanner: cis4x in region: us-east-1
+2026-04-19 14:32:14,506 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-04-19 14:32:14,510 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-04-19 14:32:14,512 - INFO - main - Running scanner: iam in region: us-west-2
+2026-04-19 14:32:14,513 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-04-19 14:32:14,515 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-04-19 14:32:14,517 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-04-19 14:32:14,520 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-04-19 14:32:14,606 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-04-19 14:32:17,094 - INFO - main - Running scanner: config in region: us-west-2
+2026-04-19 14:32:17,227 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-04-19 14:32:17,307 - INFO - main - Running scanner: cis4x in region: us-west-2
+2026-04-19 14:32:18,866 - ERROR - main - Error running cis4x scanner in us-west-2: An error occurred (ResourceNotFoundException) when calling the DescribeMetricFilters operation: The specified log group does not exist.
+2026-04-19 14:32:19,321 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-04-19 14:32:19,321 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-04-19 14:32:19,321 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-04-19 14:32:19,321 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-04-19 14:32:19,321 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-04-19 14:32:19,321 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-04-19 14:32:19,321 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-04-19 14:32:19,334 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-04-19 14:32:24,317 - INFO - main - Running scanner: config in region: eu-west-1
+2026-04-19 14:32:24,349 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-04-19 14:32:24,397 - INFO - main - Running scanner: cis4x in region: eu-west-1
+2026-04-19 14:32:26,546 - ERROR - main - Error running cis4x scanner in eu-west-1: An error occurred (ResourceNotFoundException) when calling the DescribeMetricFilters operation: The specified log group does not exist.
+2026-04-19 14:32:26,801 - INFO - main - Regions scanned: 3
+2026-04-19 14:32:26,801 - INFO - main - Total findings: 158
+2026-04-19 14:32:26,801 - INFO - main - Risk score: 0
+2026-05-10 17:09:49,142 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-05-10 17:09:49,143 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-05-10 17:09:49,144 - INFO - main - Running scanner: iam in region: us-east-1
+2026-05-10 17:09:49,144 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-05-10 17:09:49,145 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-05-10 17:09:49,145 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-05-10 17:09:49,146 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-05-10 17:09:49,146 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-05-10 17:09:51,554 - INFO - main - Running scanner: config in region: us-east-1
+2026-05-10 17:09:51,764 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-05-10 17:09:51,984 - INFO - main - Running scanner: cis4x in region: us-east-1
+2026-05-10 17:09:53,086 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-05-10 17:09:53,090 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-05-10 17:09:53,103 - INFO - main - Running scanner: iam in region: us-west-2
+2026-05-10 17:09:53,103 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-05-10 17:09:53,104 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-05-10 17:09:53,104 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-05-10 17:09:53,105 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-05-10 17:09:53,107 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-05-10 17:09:54,369 - INFO - main - Running scanner: config in region: us-west-2
+2026-05-10 17:09:54,370 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-05-10 17:09:54,651 - INFO - main - Running scanner: cis4x in region: us-west-2
+2026-05-10 17:09:55,208 - ERROR - main - Error running cis4x scanner in us-west-2: An error occurred (ResourceNotFoundException) when calling the DescribeMetricFilters operation: The specified log group does not exist.
+2026-05-10 17:09:55,683 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-05-10 17:09:55,684 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-05-10 17:09:55,685 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-05-10 17:09:55,686 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-05-10 17:09:55,686 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-05-10 17:09:55,687 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-05-10 17:09:55,687 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-05-10 17:09:55,749 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-05-10 17:09:57,875 - INFO - main - Running scanner: config in region: eu-west-1
+2026-05-10 17:09:57,889 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-05-10 17:09:57,957 - INFO - main - Running scanner: cis4x in region: eu-west-1
+2026-05-10 17:09:59,030 - ERROR - main - Error running cis4x scanner in eu-west-1: An error occurred (ResourceNotFoundException) when calling the DescribeMetricFilters operation: The specified log group does not exist.
+2026-05-10 17:09:59,214 - INFO - main - Regions scanned: 3
+2026-05-10 17:09:59,214 - INFO - main - Total findings: 158
+2026-05-10 17:09:59,216 - INFO - main - Risk score: 0
+2026-05-10 17:57:10,077 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-05-10 17:57:10,079 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-05-10 17:57:10,080 - INFO - main - Running scanner: iam in region: us-east-1
+2026-05-10 17:57:10,086 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-05-10 17:57:10,090 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-05-10 17:57:10,092 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-05-10 17:57:10,126 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-05-10 17:57:10,199 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-05-10 17:57:11,959 - INFO - main - Running scanner: config in region: us-east-1
+2026-05-10 17:57:12,049 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-05-10 17:57:12,279 - INFO - main - Running scanner: cis4x in region: us-east-1
+2026-05-10 17:57:13,411 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-05-10 17:57:13,411 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-05-10 17:57:13,412 - INFO - main - Running scanner: iam in region: us-west-2
+2026-05-10 17:57:13,413 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-05-10 17:57:13,413 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-05-10 17:57:13,415 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-05-10 17:57:13,430 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-05-10 17:57:13,502 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-05-10 17:57:15,047 - INFO - main - Running scanner: config in region: us-west-2
+2026-05-10 17:57:15,322 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-05-10 17:57:15,620 - INFO - main - Running scanner: cis4x in region: us-west-2
+2026-05-10 17:57:19,138 - ERROR - main - Error running cis4x scanner in us-west-2: An error occurred (ResourceNotFoundException) when calling the DescribeMetricFilters operation: The specified log group does not exist.
+2026-05-10 17:57:19,969 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-05-10 17:57:19,972 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-05-10 17:57:19,972 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-05-10 17:57:19,975 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-05-10 17:57:20,031 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-05-10 17:57:20,033 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-05-10 17:57:20,105 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-05-10 17:57:20,157 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-05-10 17:57:27,127 - INFO - main - Running scanner: config in region: eu-west-1
+2026-05-10 17:57:27,907 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-05-10 17:57:27,909 - INFO - main - Running scanner: cis4x in region: eu-west-1
+2026-05-10 17:57:31,389 - ERROR - main - Error running cis4x scanner in eu-west-1: An error occurred (ResourceNotFoundException) when calling the DescribeMetricFilters operation: The specified log group does not exist.
+2026-05-10 17:57:32,380 - INFO - main - Regions scanned: 3
+2026-05-10 17:57:32,380 - INFO - main - Total findings: 158
+2026-05-10 17:57:32,380 - INFO - main - Risk score: 0
+2026-05-10 18:40:14,298 - INFO - main - Running scanner: s3 in region: us-east-1
+2026-05-10 18:40:14,299 - INFO - main - Running scanner: s3public in region: us-east-1
+2026-05-10 18:40:14,299 - INFO - main - Running scanner: iam in region: us-east-1
+2026-05-10 18:40:14,300 - INFO - main - Running scanner: ec2 in region: us-east-1
+2026-05-10 18:40:14,304 - INFO - main - Running scanner: cloudtrail in region: us-east-1
+2026-05-10 18:40:14,306 - INFO - main - Running scanner: securityhub in region: us-east-1
+2026-05-10 18:40:14,328 - INFO - main - Running scanner: securitygroups in region: us-east-1
+2026-05-10 18:40:14,348 - INFO - main - Running scanner: guardduty in region: us-east-1
+2026-05-10 18:40:16,129 - INFO - main - Running scanner: config in region: us-east-1
+2026-05-10 18:40:16,390 - INFO - main - Running scanner: cloudwatchalarms in region: us-east-1
+2026-05-10 18:40:16,438 - INFO - main - Running scanner: cis4x in region: us-east-1
+2026-05-10 18:40:17,641 - INFO - main - Running scanner: s3 in region: us-west-2
+2026-05-10 18:40:17,645 - INFO - main - Running scanner: s3public in region: us-west-2
+2026-05-10 18:40:17,673 - INFO - main - Running scanner: iam in region: us-west-2
+2026-05-10 18:40:17,674 - INFO - main - Running scanner: ec2 in region: us-west-2
+2026-05-10 18:40:17,677 - INFO - main - Running scanner: cloudtrail in region: us-west-2
+2026-05-10 18:40:17,678 - INFO - main - Running scanner: securityhub in region: us-west-2
+2026-05-10 18:40:17,678 - INFO - main - Running scanner: securitygroups in region: us-west-2
+2026-05-10 18:40:17,679 - INFO - main - Running scanner: guardduty in region: us-west-2
+2026-05-10 18:40:19,181 - INFO - main - Running scanner: config in region: us-west-2
+2026-05-10 18:40:19,283 - INFO - main - Running scanner: cloudwatchalarms in region: us-west-2
+2026-05-10 18:40:19,630 - INFO - main - Running scanner: cis4x in region: us-west-2
+2026-05-10 18:40:20,170 - ERROR - main - Error running cis4x scanner in us-west-2: An error occurred (ResourceNotFoundException) when calling the DescribeMetricFilters operation: The specified log group does not exist.
+2026-05-10 18:40:20,627 - INFO - main - Running scanner: s3 in region: eu-west-1
+2026-05-10 18:40:20,627 - INFO - main - Running scanner: s3public in region: eu-west-1
+2026-05-10 18:40:20,628 - INFO - main - Running scanner: iam in region: eu-west-1
+2026-05-10 18:40:20,629 - INFO - main - Running scanner: ec2 in region: eu-west-1
+2026-05-10 18:40:20,631 - INFO - main - Running scanner: cloudtrail in region: eu-west-1
+2026-05-10 18:40:20,633 - INFO - main - Running scanner: securityhub in region: eu-west-1
+2026-05-10 18:40:20,637 - INFO - main - Running scanner: securitygroups in region: eu-west-1
+2026-05-10 18:40:20,724 - INFO - main - Running scanner: guardduty in region: eu-west-1
+2026-05-10 18:40:22,974 - INFO - main - Running scanner: config in region: eu-west-1
+2026-05-10 18:40:22,989 - INFO - main - Running scanner: cloudwatchalarms in region: eu-west-1
+2026-05-10 18:40:23,029 - INFO - main - Running scanner: cis4x in region: eu-west-1
+2026-05-10 18:40:24,022 - ERROR - main - Error running cis4x scanner in eu-west-1: An error occurred (ResourceNotFoundException) when calling the DescribeMetricFilters operation: The specified log group does not exist.
+2026-05-10 18:40:24,362 - INFO - main - Regions scanned: 3
+2026-05-10 18:40:24,362 - INFO - main - Total findings: 158
+2026-05-10 18:40:24,362 - INFO - main - Risk score: 0

@@ -1,0 +1,44 @@
+project:
+  name: "AWS Security Posture Assessment Framework"
+  version: "1.0"
+
+scan:
+  regions:
+    enabled:
+      - us-east-1
+      - us-west-2
+      - eu-west-1
+
+modules:
+  s3:
+    enabled: true
+  s3public:
+    enabled: true
+  iam:
+    enabled: true
+  ec2:
+    enabled: true
+  cloudtrail:
+    enabled: true
+  securityhub:
+    enabled: true
+  securitygroups:
+    enabled: true
+  guardduty:
+    enabled: true
+  config:
+    enabled: true
+  cloudwatchalarms:
+    enabled: true
+  cis4x:
+    enabled: true
+
+output:
+  format:
+    html: true
+    json: true
+  directory: "./reports"
+
+logging:
+  level: "INFO"
+  file: "./logs/scan.log"

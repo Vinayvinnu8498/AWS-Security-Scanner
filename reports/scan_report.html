@@ -1,0 +1,198 @@
+
+    <html>
+    <head>
+        <title>AWS Security Scan Report</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body class="bg-light">
+        <div class="container mt-4">
+            <h1 class="mb-3">AWS Security Scan Report</h1>
+            <p><strong>Generated:</strong> 2026-04-12 12:05:44</p>
+            <p><strong>Regions Scanned:</strong> 3</p>
+            <p><strong>Total Findings:</strong> 88</p>
+            <p><strong>Risk Score:</strong> 0/100</p>
+
+            
+    <div class="row text-center">
+        <div class="col-md-3">
+            <div class="card bg-danger text-white mb-3">
+                <div class="card-body">
+                    <h5>Critical</h5>
+                    <h2>11</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-warning text-dark mb-3">
+                <div class="card-body">
+                    <h5>Medium</h5>
+                    <h2>4</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-info text-dark mb-3">
+                <div class="card-body">
+                    <h5>Low</h5>
+                    <h2>61</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-secondary text-white mb-3">
+                <div class="card-body">
+                    <h5>Info</h5>
+                    <h2>12</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+            <h3 class="mt-4">Detailed Findings</h3>
+            <div class="accordion" id="findingsAccordion">
+                
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-Amazon_S3_Public_Access_Analysis">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-Amazon_S3_Public_Access_Analysis">
+                    Amazon S3 Public Access Analysis Findings
+                </button>
+            </h2>
+            <div id="collapse-Amazon_S3_Public_Access_Analysis" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    
+            <h6 class="mt-3"><span class="badge bg-primary">us-east-1</span></h6>
+            <ul><li>ℹ No S3 buckets found in this region.</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">us-west-2</span></h6>
+            <ul><li>ℹ No S3 buckets found in this region.</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">eu-west-1</span></h6>
+            <ul><li>ℹ No S3 buckets found in this region.</li></ul>
+            
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-Amazon_Elastic_Compute_Cloud_(EC2)">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-Amazon_Elastic_Compute_Cloud_(EC2)">
+                    Amazon Elastic Compute Cloud (EC2) Findings
+                </button>
+            </h2>
+            <div id="collapse-Amazon_Elastic_Compute_Cloud_(EC2)" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    
+            <h6 class="mt-3"><span class="badge bg-primary">us-east-1</span></h6>
+            <ul><li>ℹ No EC2 instances found in this region.</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">us-west-2</span></h6>
+            <ul><li>ℹ No EC2 instances found in this region.</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">eu-west-1</span></h6>
+            <ul><li>ℹ No EC2 instances found in this region.</li></ul>
+            
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-AWS_CloudTrail">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-AWS_CloudTrail">
+                    AWS CloudTrail Findings
+                </button>
+            </h2>
+            <div id="collapse-AWS_CloudTrail" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    
+            <h6 class="mt-3"><span class="badge bg-primary">us-east-1</span></h6>
+            <ul><li>❌ No CloudTrail trails found. CloudTrail is NOT enabled.</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">us-west-2</span></h6>
+            <ul><li>❌ No CloudTrail trails found. CloudTrail is NOT enabled.</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">eu-west-1</span></h6>
+            <ul><li>❌ No CloudTrail trails found. CloudTrail is NOT enabled.</li></ul>
+            
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-Amazon_GuardDuty_Threat_Detection">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-Amazon_GuardDuty_Threat_Detection">
+                    Amazon GuardDuty Threat Detection Findings
+                </button>
+            </h2>
+            <div id="collapse-Amazon_GuardDuty_Threat_Detection" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    
+            <h6 class="mt-3"><span class="badge bg-primary">us-east-1</span></h6>
+            <ul><li>✔ GuardDuty is enabled.</li><li>⚠ Unable to list GuardDuty findings: An error occurred (AccessDeniedException) when calling the ListFindings operation: User: arn:aws:iam::257426645494:user/aws-security-scanner is not authorized to perform: guardduty:ListFindings on resource: arn:aws:guardduty:us-east-1:257426645494:detector/c8ce43ae01cd6cb385f57803fa02fedf/findings because no identity-based policy allows the guardduty:ListFindings action</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">us-west-2</span></h6>
+            <ul><li>✔ GuardDuty is enabled.</li><li>⚠ Unable to list GuardDuty findings: An error occurred (AccessDeniedException) when calling the ListFindings operation: User: arn:aws:iam::257426645494:user/aws-security-scanner is not authorized to perform: guardduty:ListFindings on resource: arn:aws:guardduty:us-west-2:257426645494:detector/86ce43adfddcf673c87ecb7c270246eb/findings because no identity-based policy allows the guardduty:ListFindings action</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">eu-west-1</span></h6>
+            <ul><li>✔ GuardDuty is enabled.</li><li>⚠ Unable to list GuardDuty findings: An error occurred (AccessDeniedException) when calling the ListFindings operation: User: arn:aws:iam::257426645494:user/aws-security-scanner is not authorized to perform: guardduty:ListFindings on resource: arn:aws:guardduty:eu-west-1:257426645494:detector/86ce43ae02a2fa88fa1b564134a1accd/findings because no identity-based policy allows the guardduty:ListFindings action</li></ul>
+            
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-AWS_Identity_and_Access_Management_(IAM)">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-AWS_Identity_and_Access_Management_(IAM)">
+                    AWS Identity and Access Management (IAM) Findings
+                </button>
+            </h2>
+            <div id="collapse-AWS_Identity_and_Access_Management_(IAM)" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    
+            <h6 class="mt-3"><span class="badge bg-primary">us-east-1</span></h6>
+            <ul><li>✔ IAM password policy is set.</li><li>✔ Root account MFA is enabled.</li><li>❌ User 'aws-security-scanner' does NOT have MFA enabled.</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">us-west-2</span></h6>
+            <ul><li>✔ IAM password policy is set.</li><li>✔ Root account MFA is enabled.</li><li>❌ User 'aws-security-scanner' does NOT have MFA enabled.</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">eu-west-1</span></h6>
+            <ul><li>✔ IAM password policy is set.</li><li>✔ Root account MFA is enabled.</li><li>❌ User 'aws-security-scanner' does NOT have MFA enabled.</li></ul>
+            
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-AWS_Security_Hub">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-AWS_Security_Hub">
+                    AWS Security Hub Findings
+                </button>
+            </h2>
+            <div id="collapse-AWS_Security_Hub" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    
+            <h6 class="mt-3"><span class="badge bg-primary">us-east-1</span></h6>
+            <ul><li>✔ Security Hub is enabled in this account/region.</li><li>ℹ Enabled standard: arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0</li><li>ℹ Enabled standard: arn:aws:securityhub:us-east-1::standards/aws-foundational-security-best-practices/v/1.0.0</li><li>Finding: 'AWS Config should be enabled and use the service-linked role for resource recording' | Severity: CRITICAL | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for AWS Config configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for S3 bucket policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for disabling or scheduled deletion of customer created CMKs' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for AWS Management Console authentication failures' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for CloudTrail configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for IAM policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'A log metric filter and alarm should exist for usage of the "root" user' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for Management Console sign-in without MFA' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for VPC changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for route table changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for changes to network gateways' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for changes to Network Access Control Lists (NACL)' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for security group changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for unauthorized API calls' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'The API ListManagedNotificationEvents was invoked using root credentials.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3BBGAAOGO</li><li>Finding: 'AWS Health - AWS_CONFIG_PLANNED_LIFECYCLE_EVENT' | Severity: MEDIUM | Compliance: UNKNOWN | Resource: 257426645494</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">us-west-2</span></h6>
+            <ul><li>✔ Security Hub is enabled in this account/region.</li><li>ℹ Enabled standard: arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0</li><li>ℹ Enabled standard: arn:aws:securityhub:us-west-2::standards/aws-foundational-security-best-practices/v/1.0.0</li><li>Finding: 'Ensure a log metric filter and alarm exist for AWS Config configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for S3 bucket policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for disabling or scheduled deletion of customer created CMKs' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for AWS Management Console authentication failures' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for CloudTrail configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for IAM policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'A log metric filter and alarm should exist for usage of the "root" user' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for Management Console sign-in without MFA' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for VPC changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for route table changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for changes to network gateways' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for changes to Network Access Control Lists (NACL)' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for security group changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for unauthorized API calls' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'AWS Config should be enabled and use the service-linked role for resource recording' | Severity: CRITICAL | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'The user IAMUser : aws-security-scanner is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:AKIATX36S4H3DFOOWTKP</li><li>Finding: 'The API ConsoleLogin was invoked using root credentials.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:</li><li>Finding: 'Potential credential compromise of Root/Root indicated by a sequence of actions.' | Severity: CRITICAL | Compliance: UNKNOWN | Resource: 257426645494</li><li>Finding: 'The API EnableSecurityHub was invoked using root credentials.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3ILSLA4L6</li></ul>
+            
+            <h6 class="mt-3"><span class="badge bg-primary">eu-west-1</span></h6>
+            <ul><li>✔ Security Hub is enabled in this account/region.</li><li>ℹ Enabled standard: arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0</li><li>ℹ Enabled standard: arn:aws:securityhub:eu-west-1::standards/aws-foundational-security-best-practices/v/1.0.0</li><li>Finding: 'AWS Config should be enabled and use the service-linked role for resource recording' | Severity: CRITICAL | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for AWS Config configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for S3 bucket policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for disabling or scheduled deletion of customer created CMKs' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for AWS Management Console authentication failures' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for CloudTrail configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for IAM policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'A log metric filter and alarm should exist for usage of the "root" user' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for Management Console sign-in without MFA' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for VPC changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for route table changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for changes to network gateways' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for changes to Network Access Control Lists (NACL)' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for security group changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'Ensure a log metric filter and alarm exist for unauthorized API calls' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494</li><li>Finding: 'The user IAMUser : aws-security-scanner is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:AKIATX36S4H3DFOOWTKP</li><li>Finding: 'The API ConsoleLogin was invoked using root credentials.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:</li><li>Finding: 'Potential credential compromise of Root/Root indicated by a sequence of actions.' | Severity: CRITICAL | Compliance: UNKNOWN | Resource: 257426645494</li><li>Finding: 'The API Enable was invoked using root credentials.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3ILSLA4L6</li></ul>
+            
+                </div>
+            </div>
+        </div>
+        
+            </div>
+        </div>
+    </body>
+    </html>
+    

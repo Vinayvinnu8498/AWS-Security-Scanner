@@ -1,0 +1,207 @@
+{
+    "summary": {
+        "regions_scanned": 3,
+        "total_findings": 128,
+        "severity_counts": {
+            "CRITICAL": 35,
+            "MEDIUM": 4,
+            "LOW": 77,
+            "INFO": 12
+        },
+        "risk_score": 0
+    },
+    "findings": {
+        "AWS CloudTrail": {
+            "us-east-1": [
+                "\u274c No CloudTrail trails found. CloudTrail is NOT enabled."
+            ],
+            "us-west-2": [
+                "\u274c No CloudTrail trails found. CloudTrail is NOT enabled."
+            ],
+            "eu-west-1": [
+                "\u274c No CloudTrail trails found. CloudTrail is NOT enabled."
+            ]
+        },
+        "Amazon S3 Public Access Analysis": {
+            "us-east-1": [
+                "\u2139 No S3 buckets found in this region."
+            ],
+            "us-west-2": [
+                "\u2139 No S3 buckets found in this region."
+            ],
+            "eu-west-1": [
+                "\u2139 No S3 buckets found in this region."
+            ]
+        },
+        "Amazon Elastic Compute Cloud (EC2)": {
+            "us-east-1": [
+                "\u2139 No EC2 instances found in this region."
+            ],
+            "us-west-2": [
+                "\u2139 No EC2 instances found in this region."
+            ],
+            "eu-west-1": [
+                "\u2139 No EC2 instances found in this region."
+            ]
+        },
+        "AWS Identity and Access Management (IAM)": {
+            "us-east-1": [
+                "\u2714 IAM password policy is set.",
+                "\u2714 Root account MFA is enabled.",
+                "\u274c User 'aws-security-scanner' does NOT have MFA enabled."
+            ],
+            "us-west-2": [
+                "\u2714 IAM password policy is set.",
+                "\u2714 Root account MFA is enabled.",
+                "\u274c User 'aws-security-scanner' does NOT have MFA enabled."
+            ],
+            "eu-west-1": [
+                "\u2714 IAM password policy is set.",
+                "\u2714 Root account MFA is enabled.",
+                "\u274c User 'aws-security-scanner' does NOT have MFA enabled."
+            ]
+        },
+        "Amazon GuardDuty Threat Detection": {
+            "us-east-1": [
+                "\u2714 GuardDuty is enabled.",
+                "Finding: 'Potential credential compromise of Root/Root indicated by a sequence of actions.' | Severity: CRITICAL | Resource: AttackSequence",
+                "Finding: 'The API ListManagedNotificationEvents was invoked using root credentials.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'The user IAMUser : aws-security-scanner is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'The user Root : Root is anomalously invoking APIs commonly used in Persistence tactics.' | Severity: MEDIUM | Resource: AccessKey",
+                "Finding: 'The user Root : Root is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Resource: AccessKey"
+            ],
+            "us-west-2": [
+                "\u2714 GuardDuty is enabled.",
+                "Finding: 'The user IAMUser : aws-security-scanner is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'Potential credential compromise of Root/Root indicated by a sequence of actions.' | Severity: CRITICAL | Resource: AttackSequence",
+                "Finding: 'The API GetPolicyVersion was invoked using root credentials.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'The user Root : Root is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'The API CreateIndex was invoked using root credentials.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'The user IAMUser : aws-security-scanner is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'Potential credential compromise of Root/Root indicated by a sequence of actions.' | Severity: CRITICAL | Resource: AttackSequence"
+            ],
+            "eu-west-1": [
+                "\u2714 GuardDuty is enabled.",
+                "Finding: 'The user IAMUser : aws-security-scanner is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'The API GetPolicyVersion was invoked using root credentials.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'Potential credential compromise of Root/Root indicated by a sequence of actions.' | Severity: CRITICAL | Resource: AttackSequence",
+                "Finding: 'The user Root : Root is anomalously invoking APIs commonly used in PrivilegeEscalation tactics.' | Severity: MEDIUM | Resource: AccessKey",
+                "Finding: 'The user Root : Root is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'The API GetIndex was invoked using root credentials.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'The user IAMUser : aws-security-scanner is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Resource: AccessKey",
+                "Finding: 'Potential credential compromise of Root/Root indicated by a sequence of actions.' | Severity: CRITICAL | Resource: AttackSequence"
+            ]
+        },
+        "CloudWatch Security Alarms": {
+            "us-east-1": [
+                "\u274c Missing CloudWatch alarm for: Unauthorized API Calls",
+                "\u274c Missing CloudWatch alarm for: Console Login Without MFA",
+                "\u274c Missing CloudWatch alarm for: Root Login",
+                "\u274c Missing CloudWatch alarm for: IAM Policy Changes",
+                "\u274c Missing CloudWatch alarm for: CloudTrail Configuration Changes"
+            ],
+            "us-west-2": [
+                "\u274c Missing CloudWatch alarm for: Unauthorized API Calls",
+                "\u274c Missing CloudWatch alarm for: Console Login Without MFA",
+                "\u274c Missing CloudWatch alarm for: Root Login",
+                "\u274c Missing CloudWatch alarm for: IAM Policy Changes",
+                "\u274c Missing CloudWatch alarm for: CloudTrail Configuration Changes"
+            ],
+            "eu-west-1": [
+                "\u274c Missing CloudWatch alarm for: Unauthorized API Calls",
+                "\u274c Missing CloudWatch alarm for: Console Login Without MFA",
+                "\u274c Missing CloudWatch alarm for: Root Login",
+                "\u274c Missing CloudWatch alarm for: IAM Policy Changes",
+                "\u274c Missing CloudWatch alarm for: CloudTrail Configuration Changes"
+            ]
+        },
+        "AWS Config Recorder": {
+            "us-east-1": [
+                "\u274c AWS Config is NOT configured in this region."
+            ],
+            "us-west-2": [
+                "\u274c AWS Config is NOT configured in this region."
+            ],
+            "eu-west-1": [
+                "\u274c AWS Config is NOT configured in this region."
+            ]
+        },
+        "AWS Security Hub": {
+            "us-east-1": [
+                "\u2714 Security Hub is enabled in this account/region.",
+                "\u2139 Enabled standard: arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+                "\u2139 Enabled standard: arn:aws:securityhub:us-east-1::standards/aws-foundational-security-best-practices/v/1.0.0",
+                "Finding: 'AWS Config should be enabled and use the service-linked role for resource recording' | Severity: CRITICAL | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for AWS Config configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for S3 bucket policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for disabling or scheduled deletion of customer created CMKs' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for AWS Management Console authentication failures' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for CloudTrail configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for IAM policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'A log metric filter and alarm should exist for usage of the \"root\" user' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for Management Console sign-in without MFA' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for VPC changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for route table changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for changes to network gateways' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for changes to Network Access Control Lists (NACL)' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for security group changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for unauthorized API calls' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Potential credential compromise of Root/Root indicated by a sequence of actions.' | Severity: CRITICAL | Compliance: UNKNOWN | Resource: 257426645494",
+                "Finding: 'The user IAMUser : aws-security-scanner is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:AKIATX36S4H3DFOOWTKP",
+                "Finding: 'The API ListManagedNotificationEvents was invoked using root credentials.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3IW33DM5Y",
+                "Finding: 'The user Root : Root is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3AFOOITOR",
+                "Finding: 'The user Root : Root is anomalously invoking APIs commonly used in Persistence tactics.' | Severity: MEDIUM | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3AFOOITOR"
+            ],
+            "us-west-2": [
+                "\u2714 Security Hub is enabled in this account/region.",
+                "\u2139 Enabled standard: arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+                "\u2139 Enabled standard: arn:aws:securityhub:us-west-2::standards/aws-foundational-security-best-practices/v/1.0.0",
+                "Finding: 'AWS Config should be enabled and use the service-linked role for resource recording' | Severity: CRITICAL | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for AWS Config configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for S3 bucket policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for disabling or scheduled deletion of customer created CMKs' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for AWS Management Console authentication failures' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for CloudTrail configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for IAM policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'A log metric filter and alarm should exist for usage of the \"root\" user' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for Management Console sign-in without MFA' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for VPC changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for route table changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for changes to network gateways' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for changes to Network Access Control Lists (NACL)' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for security group changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for unauthorized API calls' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'The user IAMUser : aws-security-scanner is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:AKIATX36S4H3DFOOWTKP",
+                "Finding: 'Potential credential compromise of Root/Root indicated by a sequence of actions.' | Severity: CRITICAL | Compliance: UNKNOWN | Resource: 257426645494",
+                "Finding: 'The API GetPolicyVersion was invoked using root credentials.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3AFOOITOR",
+                "Finding: 'The user Root : Root is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3EG5M5ISP",
+                "Finding: 'The API CreateIndex was invoked using root credentials.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3LG5J4JDU"
+            ],
+            "eu-west-1": [
+                "\u2714 Security Hub is enabled in this account/region.",
+                "\u2139 Enabled standard: arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+                "\u2139 Enabled standard: arn:aws:securityhub:eu-west-1::standards/aws-foundational-security-best-practices/v/1.0.0",
+                "Finding: 'AWS Config should be enabled and use the service-linked role for resource recording' | Severity: CRITICAL | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for AWS Config configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for S3 bucket policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for disabling or scheduled deletion of customer created CMKs' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for AWS Management Console authentication failures' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for CloudTrail configuration changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for IAM policy changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'A log metric filter and alarm should exist for usage of the \"root\" user' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for Management Console sign-in without MFA' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for VPC changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for route table changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for changes to network gateways' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for changes to Network Access Control Lists (NACL)' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for security group changes' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'Ensure a log metric filter and alarm exist for unauthorized API calls' | Severity: LOW | Compliance: FAILED | Resource: AWS::::Account:257426645494",
+                "Finding: 'The user IAMUser : aws-security-scanner is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:AKIATX36S4H3DFOOWTKP",
+                "Finding: 'Potential credential compromise of Root/Root indicated by a sequence of actions.' | Severity: CRITICAL | Compliance: UNKNOWN | Resource: 257426645494",
+                "Finding: 'The API GetPolicyVersion was invoked using root credentials.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3AFOOITOR",
+                "Finding: 'The user Root : Root is anomalously invoking APIs commonly used in PrivilegeEscalation tactics.' | Severity: MEDIUM | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3EG5M5ISP",
+                "Finding: 'The user Root : Root is anomalously invoking APIs commonly used in Discovery tactics.' | Severity: LOW | Compliance: UNKNOWN | Resource: AWS::IAM::AccessKey:ASIATX36S4H3EG5M5ISP"
+            ]
+        }
+    }
+}

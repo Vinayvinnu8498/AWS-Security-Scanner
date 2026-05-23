@@ -1,0 +1,65 @@
+import yaml
+import os
+
+class ConfigError(Exception):
+    pass
+
+class Config:
+    def __init__(self, data):
+        self.data = data
+
+        # Top-level sections
+        self.project = data.get("project", {})
+        self.scan = data.get("scan", {})
+        self.modules = data.get("modules", {})
+        self.processing = data.get("processing", {})
+        self.output = data.get("output", {})
+        self.logging = data.get("logging", {})
+        self.dashboard = data.get("dashboard", {})
+        self.error_handling = data.get("error_handling", {})
+
+    def get_regions(self):
+        return self.scan.get("regions", {}).get("enabled", [])
+
+    def get_enabled_modules(self):
+        return {k: v.get("enabled", False) for k, v in self.modules.items()}
+
+    def get_log_level(self):
+        return self.logging.get("level", "INFO")
+
+    def get_output_format(self):
+        return self.output.get("format", {})
+
+    def __repr__(self):
+        return f"<Config project={self.project.get('name')}>"
+
+def load_config(path="config.yaml"):
+    if not os.path.exists(path):
+        raise ConfigError(f"Config file not found: {path}")
+
+    try:
+        with open(path, "r") as f:
+            data = yaml.safe_load(f)
+    except Exception as e:
+        raise ConfigError(f"Failed to parse config.yaml: {e}")
+
+    validate_config(data)
+    return Config(data)
+
+def validate_config(data):
+    required_sections = ["project", "scan", "modules", "output", "logging"]
+
+    for section in required_sections:
+        if section not in data:
+            raise ConfigError(f"Missing required section: {section}")
+
+    if "regions" not in data["scan"]:
+        raise ConfigError("scan.regions is required")
+
+    if "enabled" not in data["scan"]["regions"]:
+        raise ConfigError("scan.regions.enabled must be defined")
+
+    if not isinstance(data["scan"]["regions"]["enabled"], list):
+        raise ConfigError("scan.regions.enabled must be a list")
+
+    return True
